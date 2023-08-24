@@ -4,7 +4,7 @@ import LoginPageImg from "../assets/LoginPageImg.png";
 const styles = {
   container: "bg-neutral-100 flex flex-col justify-center items-center",
   title: "text-center text-sky-900 text-2xl md:text-4xl font-black uppercase",
-  img: "object-scale-down w-full ",
+  img: "object-scale-down w-full",
 };
 
 const LeftSplit = () => {
@@ -16,6 +16,7 @@ const LeftSplit = () => {
         src={LoginPageImg}
         loading="lazy"
         alt="LoginImg"
+        placeholder="blur"
       />
     </div>
   );

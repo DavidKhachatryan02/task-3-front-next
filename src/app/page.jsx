@@ -1,9 +1,7 @@
-import React from 'react'
+import HomeWidget from "./home/components/HomeWidget"
 
-const homepage = () => {
-  return (
-    <div>homepage</div>
-  )
-}
+const HomePage = () => {
+  return <HomeWidget />;
+};
 
-export default homepage
+export default HomePage;
