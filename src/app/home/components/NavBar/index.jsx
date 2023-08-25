@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import PermContactCalendarOutlinedIcon from "@mui/icons-material/PermContactCalendarOutlined";
 import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
 import LogoutIcon from "@mui/icons-material/Logout";
-import { COOKIE_TOKEN_KEY, COOKIES_REFRESH_KEY } from "~/constatns/config";
+import { COOKIE_TOKEN_KEY, COOKIES_REFRESH_KEY } from "~/constants/config";
 // import { logout } from "~/store/slice/userSlice";
 
 const styles = {
